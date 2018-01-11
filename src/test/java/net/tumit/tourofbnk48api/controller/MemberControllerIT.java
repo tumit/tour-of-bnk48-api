@@ -1,6 +1,5 @@
-package net.tumit.tourofbnk48api;
+package net.tumit.tourofbnk48api.controller;
 
-import net.tumit.tourofbnk48api.controller.MemberController;
 import net.tumit.tourofbnk48api.model.Member;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,8 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class TourOfBnk48ApiApplicationTests {
-
+public class MemberControllerIT {
     @Autowired
     private MemberController memberController;
 
