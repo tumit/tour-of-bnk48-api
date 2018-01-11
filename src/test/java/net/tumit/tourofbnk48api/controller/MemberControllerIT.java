@@ -16,7 +16,7 @@ public class MemberControllerIT {
     private MemberController memberController;
 
     @Test
-    public void contextLoads() {
+    public void get() {
         // arrange
         String slug = "cherprang";
         // act
