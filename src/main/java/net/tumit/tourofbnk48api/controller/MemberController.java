@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MemberController {
+
     public Member get(String slug) {
         return new Member(1L, slug);
     }
